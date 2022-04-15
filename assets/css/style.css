@@ -12,6 +12,6 @@ main {
     text-align: center;
 }
 
-.grupotextos {
-    display: inline-block;
+section {
+    display: inline-block};
 }
