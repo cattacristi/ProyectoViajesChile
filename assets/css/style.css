@@ -1,3 +1,17 @@
-.header {
+main {
+    background-color:black;
+}
+
+#tituloinformacion {
+    text-align: center;
+    color: white;
+}
+
+.grupoiconos {
+    background-color: cyan;
+    text-align: center;
+}
+
+.grupotextos {
     display: inline-block;
 }
