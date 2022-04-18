@@ -1,5 +1,9 @@
-.main {
-    background-color:black;
+main {
+    background-color:#000000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .titulosecciones {
@@ -17,6 +21,11 @@ footer {
     color: white;
 }
 
+#espaciomensaje {
+    height: 150px;
+}
+
 .iconosfooter {
-    text-align: end;
+    text-align: center;
+    border-color: white;
 }
