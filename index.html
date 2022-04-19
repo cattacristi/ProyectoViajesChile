@@ -25,7 +25,7 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top horizontal-nav full-width horizontalNav-notprocessed">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent scrolling-navbar fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand text-white" href="#"> Viajes Chile
                         <img src="assets/img/viajes.svg" alt="logo de la empresa" width="30" height="24"
@@ -43,19 +43,20 @@
                             </li>
                             <li class="nav-item"> 
                                 <div class="main" id="section1">
-                                <a class="nav-link" href="#">Quiénes somos</a>
+                                <a data-scroll class="nav-link" href="#sec-1">Quiénes somos</a>
                             </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Destacados</a>
+                                <a data-scroll class="nav-link" href="#sec-2">Destacados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a data-scroll class="nav-link" href="#sec-3">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+        
         </div>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -87,8 +88,8 @@
         <!--Sección de información-->
         <br>
         <div class="container">
-            <a href="#section2"></a>
-            <p class="titulosecciones">¿QUIÉNES SOMOS?</p>
+            <a href="#"></a>
+            <p class="titulosecciones" id="sec-1">¿QUIÉNES SOMOS?</p>
             <hr>
             <br>
 
@@ -109,7 +110,7 @@
                 <!--segunda columna-->
 
                 <div class="col-md-4 text-white">
-                    <p class="d-none d-sm-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, praesentium? At fuga
+                    <p class="d-none d-sm-block" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, praesentium? At fuga
                         ratione exercitationem pariatur eius fugit, veritatis itaque repellat illo blanditiis asperiores
                         ipsam aut hic, mollitia cupiditate nemo omnis.</p>
                     <figure class="grupoiconos" width="100%">
@@ -135,14 +136,15 @@
         <!--Sección de cards-->
         <br>
         <div class="container">
-            <p class="titulosecciones">DESTACADOS</p>
+            <p class="titulosecciones" id="sec-2">DESTACADOS</p>
             <hr>
             <br>
             <div class="container">
                 <div class="row">
                     <!--primera card-->
+                    <div class=""></div>
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="assets/img/card1.jpg" class="card-img-top" alt="imagen de lago">
                             <div class="card-body text-white bg-info">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -157,7 +159,7 @@
 
                     <!--segunda card-->
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="assets/img/card2.jpg" class="card-img-top" alt="imagen de lago en el desierto">
                             <div class="card-body bg-info text-white">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -171,7 +173,7 @@
 
                     <!--tercera card-->
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" >
                             <img src="assets/img/card3.jpg" class="card-img-top" alt="imagen de salar">
                             <div class="card-body bg-info text-white">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -186,7 +188,7 @@
 
                     <!--cuarta card-->
                     <div class="col-md-3">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <img src="assets/img/card4.jpg" class="card-img-top" alt="imagen de bosque">
                             <div class="card-body bg-info text-white">
                                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
@@ -205,7 +207,7 @@
             <!--Sección formulario-->
             <br>
             <div class="container">
-                <p class="titulosecciones">CONTACTO</p>
+                <p class="titulosecciones" id="sec-3">CONTACTO</p>
                 <hr>
                 <!--formulario de Boostrap-->
                 <form>
@@ -228,6 +230,7 @@
                             data-bs-placement="top" title="Haz click para enviar" >
                             Enviar
                             </button>
+                            <p></p>
               </form>
     </main>
 
